@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 140px;
+    border-radius: 50%;
+    margin: 30px 30px;
+}
+
+.encabezado h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 250%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.informacion {
+    height: 100hv;
+    display: flex;
+}
+
+.info_izq {
+    flex: 0 0 25%; /* Ancho fijo del 25% sin crecer ni encoger */
+    max-height: 100%;
+    background-color: rgb(136, 0, 255);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info_der {
+    flex: 0 0 75%; /* Ancho fijo del 75% sin crecer ni encoger */
+    max-height: 100%;
+    background-color: rgb(225, 225, 232);
+    padding: 20px; /* Añadir espacio interno para separar el contenido del borde */
+}
+
+.l1{
+    margin-bottom: 20px;
+}
+ul {
+    padding-left: 20px; /* Añadir un poco de espacio a la izquierda para la numeración */
+}
+ul li {
+    margin-bottom: 8px; /* Añadir espacio entre elementos de la lista */
+}
+.info_izq p{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
