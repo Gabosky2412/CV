@@ -28,12 +28,11 @@ img {
 
 .info_izq {
     flex: 0 0 25%; /* Ancho fijo del 25% sin crecer ni encoger */
-    background-color: rgb(136, 0, 255);
+    background-color: rgb(157, 49, 252);
     padding: 20px;
 }
 
 .info_der {
-    flex: 0 0 69.7%; /* Ancho fijo del 75% sin crecer ni encoger */
     background-color: rgb(225, 225, 232);
     padding: 20px; /* Añadir espacio interno para separar el contenido del borde */
 }
