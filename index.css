@@ -36,9 +36,9 @@ img {
 
 .info_izq{
     background-color: blueviolet;
-    padding: 30px 50px;
+    /* padding: 30px 50px; */
 }
 
 .info_der{
-    padding: 30px 50px;
+    /* padding: 30px 50px; */
 }
